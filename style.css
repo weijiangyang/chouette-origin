@@ -708,7 +708,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 20px auto;
     display:flex;
     justify-content:space-around;
     
@@ -1054,5 +1054,12 @@ h4 {
 }
 a{
     color:red;
-    text-decoration: none;
+    text-decoration:none;
+    /* display:block;
+    height:50px; */
+    
+    
+}
+li{
+    height:50px;
 }
