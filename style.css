@@ -710,7 +710,7 @@ p {
     max-width: 400px;
     margin: auto auto auto auto;
     display:flex;
-    justify-content: center;
+    justify-content:space-around;
     
    
     
