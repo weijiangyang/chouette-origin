@@ -100,7 +100,8 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgba(255, 255, 255, );
+    
     
 }
 
@@ -1066,4 +1067,10 @@ li{
 input{
     margin-top:10px;
     margin-bottom: 10px;
+}
+div.col-sm-4 li{
+    color:#fff;
+}
+div.col-sm-4 a{
+    color:#f3976c!important
 }
