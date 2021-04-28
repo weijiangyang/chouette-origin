@@ -833,11 +833,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere\(origin\).webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation\ \(origin\).webp");
 }
 
 @media (max-width: 1024px) {
@@ -852,6 +852,13 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    .bg-banniere {
+        background-image: url("img/la-chouette-agence-banniere\(medium\)\ .webp");
+    }
+    
+    .bg-presentation {
+        background-image: url("img/image-de-presentation\ \(medium\)\ .webp");
+    }
     
 }
 
@@ -861,6 +868,13 @@ h4 {
     }
     .nav-center.navbar .nav {
         max-width: 100%
+    }
+    .bg-banniere {
+        background-image: url("img/la-chouette-agence-banniere\(sm\)\ .webp");
+    }
+    
+    .bg-presentation {
+        background-image: url("img/image-de-presentation\ \(sm\).webp");
     }
 }
 
@@ -1042,6 +1056,13 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    .bg-banniere {
+        background-image: url("img/la-chouette-agence-banniere\(ssm\).webp");
+    }
+    
+    .bg-presentation {
+        background-image: url("img/image-de-presentation\ \(ssm\).webp");
     }
 }
 
