@@ -95,15 +95,12 @@ a:hover {
     opacity:0.2;
     background-size: 280px 280px;
 }
-
 .b-parallax {
     background-attachment: fixed;
 }
 
 .d-bloc {
     color: rgba(255, 255, 255, );
-    
-    
 }
 
 .d-bloc button:hover {
@@ -286,7 +283,6 @@ a:hover {
     padding-left: 0;
     margin-right: 20px;
 }
-
 #bloc-1-hero h1 {
     font-size: 32px;
 }
@@ -318,14 +314,12 @@ a:hover {
 .nav-center .navbar-brand img {
     margin: 0;
 }
-
 .navbar .nav {
     padding-top: 2px;
     margin-right: 100px;
     float: right;
     z-index: 1;
 }
-
 .nav > li {
     float: left;
     margin-top: 4px;
@@ -333,7 +327,6 @@ a:hover {
     font-size: 16px;
     list-style-type: none;
 }
-
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
 }
@@ -714,9 +707,6 @@ p {
     margin: 20px auto;
     display:flex;
     justify-content:space-around;
-    
-   
-    
 }
 
 h2 {
