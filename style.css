@@ -18,15 +18,6 @@ a:hover {
     cursor: pointer;
 }
 
-#page-loading-blocs-notifaction {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
-}
-
 .bloc {
     width: 100%;
     clear: both;
@@ -142,14 +133,8 @@ a:hover {
 .d-bloc a:hover .icon-sm,
 .d-bloc a:hover .icon-md,
 .d-bloc a:hover .icon-lg,
-.d-bloc a:hover .icon-xl,
-.d-bloc h1 a:hover,
-.d-bloc h2 a:hover,
-.d-bloc h3 a:hover,
-.d-bloc h4 a:hover,
-.d-bloc h5 a:hover,
-.d-bloc h6 a:hover,
-.d-bloc p a:hover {
+.d-bloc a:hover .icon-xl
+ {
     color: rgba(255, 255, 255, 1);
 }
 
@@ -856,46 +841,22 @@ h4 {
     
 }
 
-/* @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-    .b-parallax {
-        background-attachment: scroll;
-    }
-}
-
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
-    .b-parallax {
-        background-attachment: scroll;
-    }
-} */
-
 @media (max-width: 991px) {
     .container {
         width: 100%;
     }
-    /* .b-parallax {
-        background-attachment: scroll;
-    } */
+    
     .page-container,
     #hero-bloc {
         overflow-x: hidden;
         position: relative;
     }
-    /* .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    } */
+    
     .bloc-group,
     .bloc-group .bloc {
         display: block;
         width: 100%;
     }
-    /* .bloc-fill-screen .fill-bloc-top-edge, */
-    /* .bloc-fill-screen .fill-bloc-bottom-edge {
-        padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    } */
-    
 }
 
 @media (max-width: 767px) {
@@ -914,9 +875,7 @@ h4 {
         padding-left: 10px!important;
         padding-right: 10px!important;
     }
-    /* .b-parallax {
-        background-attachment: scroll;
-    } */
+    
     .navbar .nav {
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
@@ -1057,6 +1016,8 @@ a{
 }
 li{
     height:50px;
+    font-size:16px;
+    
 }
 input{
     margin-top:10px;
@@ -1066,5 +1027,5 @@ div.col-sm-4 li{
     color:#fff;
 }
 div.col-sm-4 a{
-    color:#f3976c!important;
+    color:black!important;
 }
